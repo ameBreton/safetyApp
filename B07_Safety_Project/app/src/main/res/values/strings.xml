@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">project666</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_user_sign_up">Don\'t have an account? Sign up</string>
+    <string name="register">Register</string>
+    <string name="your_name">Your name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="agree_to_terms_and_conditions">By signing up, you agree to our Terms &amp; Conditions and Privacy Policy.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="old_user_sign_in">Already have an account? Sign in</string>
+    <string name="welcome_pin_set">Set your 4-digit PIN, </string>
+    <string name="welcome_pin_set_sub">so you can unlock quick next time!</string>
+    <string name="confirm">Confirm</string>
+    <string name="enter_pin">Please enter your 4-digit PIN to unlock</string>
+    <string name="use_firebase_login">Use your email/google account to sign in</string>
+    <string name="unlock">Unlock</string>
+    <string name="your_data">Your Data</string>
+    <string name="back_to_pin">Use PIN instead</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="enter_email_msg">Enter your registered email to receive a password reset email</string>
+    <string name="your_email">Your Email</string>
+    <string name="send_email">Send Email</string>
+    <string name="back_to_sign_in">Back to Sign In page</string>
+    <string name="or">OR</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="get_started">Let\'s Get Started!!</string>
+    <string name="started_msg">Start your fantastic journey in our Safety App</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="default_web_client_id">648892758681-ge49q4ert5ms4fa8eeubtl2orvf2th25.apps.googleusercontent.com</string>
+    <string name="for_decoration">For decoration</string>
+    <string name="wait_a_minute">Processing may take a minute or so. Thank you for your patience:)</string>
+    <string name="userCity">The User\'s city goes here</string>
+    <string name="linkDescPlaceholder">Link Description\n[link]\n\n</string>
+    <string name="home">home</string>
+    <string name="aid_support">aid/support</string>
+    <string name="eject">eject</string>
+    <string name="logoutbutton">logoutButton</string>
+    <string name="generatorbutton">generatorButton</string>
+    <string name="reminderbutton">reminderButton</string>
+    <string name="reminder_text">You can add gentle reminders here to support your safety and well-being. If you’d like, you can also set alarms for each reminder in the Notification section to help you stay on track.</string>
+    <string name="databutton">dataButton</string>
+    <string name="planbutton">planButton</string>
+    <string name="notifbutton">notifButton</string>
+    <string name="floatinghome">floatingHome</string>
+    <string name="floatingexit">floatingExit</string>
+    <string name="floatinglogout">floatingLogout</string>
+    <string name="home_page">Home Page</string>
+    <string name="reminder">Reminder</string>
+    <string name="noti_text">Alarms can help you stay on track when things feel overwhelming.</string>
+    <string name="notif">Notifications</string>
+    <string name="will_refresh_city_information">Will refresh city information</string>
+    <string name="welcome">Welcome Back!</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="terms_conditions_text">
+        Welcome to Safety App.\n\n
+        By using this app, you agree to the following terms:\n\n
+        1. Not a Substitute for Emergency Services\n
+        In case of danger or emergency, always call local authorities immediately (e.g. 911).\n\n
+        2. No Guarantee of Safety\n
+        Safety plans are personalized and situation-specific. They may not prevent harm.\n\n
+        3. Use at Your Own Risk\n
+        The developer disclaims all liability for any injury, loss, or damage arising from use of this app.\n\n
+        4. Proper Use\n
+        You agree not to misuse or interfere with the app’s operation, nor reverse-engineer it.\n\n
+        5. Updates to Terms\n
+        We may update these terms at any time. Continued use constitutes acceptance of changes.\n\n
+        Last updated: August 2025
+    </string>
+    <string name="privacy_policy_text">
+        Safety App (“we”, “us”, “our”) is committed to protecting your privacy.\n\n
+        What We Collect\n
+        • Questionnaire responses (relationship status, answers to safety planning questions)\n
+        • Emergency contacts, safe locations, medication details\n
+        • Uploaded documents (only if you choose to upload: IDs, court orders, etc.)\n\n
+        How We Store Data\n
+        • All data is stored in Firebase Realtime Database under your user profile.\n
+        • Your PIN is stored locally in encrypted SharedPreferences (AndroidX Security + Keystore).\n\n
+        No Unsolicited Collection\n
+        We do NOT collect your name, address, phone number, location, or other PII unless you explicitly upload it.\n\n
+        No Third-Party Sharing\n
+        We do not sell, trade, or share your personal data with third parties (Firebase only as our backend provider).\n\n
+        Your Control\n
+        You can view, edit, or delete all your data in the app’s settings at any time.\n\n
+        Policy Updates\n
+        We may update this policy. Last updated: August 2025.\n\n
+        Questions? Contact us at support: safetyapp.contact@gmail.com
+    </string>
+</resources>

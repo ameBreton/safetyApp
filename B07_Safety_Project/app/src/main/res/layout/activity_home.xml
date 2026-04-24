@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#816D64"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A4B396"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_navigation_bar"/>
+
+        <TextView
+            android:id="@+id/plan_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_page"
+            android:layout_marginBottom="10dp"
+            android:background="#DFE7C9"
+            android:fontFamily="@font/brawler"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textColor="#506634"
+            android:textSize="34sp" />
+
+
+        <GridLayout
+            android:id="@+id/buttonGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:layout_marginBottom="12dp"
+            android:rowOrderPreserved="false">
+
+
+            <ImageButton
+                android:id="@+id/Plan"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/planbutton"
+                android:onClick="Plan"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projplan" />
+
+
+            <ImageButton
+                android:id="@+id/Generator"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/generatorbutton"
+                android:onClick="Generator"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projgenerator"/>
+
+
+            <ImageButton
+                android:id="@+id/Reminders"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/reminderbutton"
+                android:onClick="Reminders"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projremind"/>
+
+
+            <ImageButton
+                android:id="@+id/Notifications"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/notifbutton"
+                android:onClick="Notifications"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projnotif"/>
+
+
+            <ImageButton
+                android:id="@+id/Data"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/databutton"
+                android:onClick="Data"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projdata"/>
+
+
+            <ImageButton
+                android:id="@+id/Aid"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/aid_support"
+                android:onClick="Aid"
+                android:scaleType="centerInside"
+                android:src="@drawable/cscb07projsupport"/>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

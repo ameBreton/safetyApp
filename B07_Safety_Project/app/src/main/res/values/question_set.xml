@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="question_bg_color">#84BB9F</color>
+    <color name="question_text_color">#F5F0EA </color>
+    <color name="question_secondary_color">#E9DFD2</color>
+    <color name="button_color">#156AA8</color>
+    <string name="hint_text">Answer Here</string>
+    <string name="str_sample">Sample</string>
+    <string name="generator_title">Plan Generator</string>
+    <string name="submit">💾Submit</string>
+    <string name="generator_text">Please fill in this questionnaire to help us generate your personalized safety plan. You can edit your answers anytime you like</string>
+    <string name="plan_title">Your Safety Plan</string>
+    <string name="edit">📝Edit</string>
+    <string name="disclaimer">⚠️ This safety plan is a personal tool designed to support your well-being. It does not guarantee prevention of harm or ensure absolute safety. Every individual’s situation is unique, and this plan should be used alongside professional support when possible. You are encouraged to seek help from trained professionals or emergency services in times of crisis.</string>
+    <string name="plan_text">This is the customized safety plan generated for you. You can always revisit the questionnaire to change the status, so we can customized new plans for you if situation changes</string>
+</resources>

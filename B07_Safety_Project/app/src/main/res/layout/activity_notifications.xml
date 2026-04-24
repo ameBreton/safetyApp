@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#816D64"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notifications">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A4B396"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_navigation_bar"/>
+
+        <TextView
+            android:id="@+id/plan_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:background="#DFE7C9"
+            android:fontFamily="@font/brawler"
+            android:text="@string/notif"
+            android:textAlignment="center"
+            android:textColor="#506634"
+            android:textSize="34sp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCenterControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#E6D9C0"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCenterControlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center Control"
+                    android:fontFamily="@font/brawler"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioGroup
+                    android:id="@+id/rgFrequency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvCenterControlLabel">
+
+                    <RadioButton
+                        android:id="@+id/rbDaily"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/brawler"
+                        android:textSize="18sp"
+                        android:text="Daily" />
+
+                    <RadioButton
+                        android:id="@+id/rbWeekly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/brawler"
+                        android:textSize="18sp"
+                        android:text="Weekly" />
+
+                    <RadioButton
+                        android:id="@+id/rbMonthly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/brawler"
+                        android:textSize="18sp"
+                        android:text="Monthly" />
+                    </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/btnPickTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🕒 Pick time"
+                        android:fontFamily="@font/brawler"
+                        android:layout_margin="8dp"
+                        android:textColor="#3E3E3E"
+                        android:backgroundTint="#CBA181"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/rgFrequency" />
+
+                    <TextView
+                        android:id="@+id/tvPickedTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:text=""
+                        android:layout_margin="8dp"
+                        android:fontFamily="@font/brawler"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/btnPickTime" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="70dp">
+
+                    <TextView
+                        android:id="@+id/plan_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="@string/noti_text"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNotificationsReminders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:nestedScrollingEnabled="false"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="floatingEmergencyExit" type="id"/>
+    <item name="floatingHome" type="id"/>
+    <item name="floatingLogout" type="id"/>
+</resources>

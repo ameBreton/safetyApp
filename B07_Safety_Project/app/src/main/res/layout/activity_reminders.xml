@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#816D64"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A4B396"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_navigation_bar"/>
+
+        <TextView
+            android:id="@+id/plan_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:background="#DFE7C9"
+            android:fontFamily="@font/brawler"
+            android:text="@string/reminder"
+            android:textAlignment="center"
+            android:textColor="#506634"
+            android:textSize="34sp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/plan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Reminders">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="70dp">
+
+                    <TextView
+                        android:id="@+id/plan_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="@string/reminder_text"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerReminders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_margin="8dp"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Add"
+            android:textColor="#506634"
+            android:backgroundTint="#CBA181"
+            android:fontFamily="@font/brawler"
+            android:textSize="22sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:id="@+id/btnToggleDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="#506634"
+            android:backgroundTint="#CBA181"
+            android:fontFamily="@font/brawler"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toStartOf="@id/Add"/>
+
+        <Button
+            android:id="@+id/btnToggleEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Edit"
+            android:textColor="#506634"
+            android:backgroundTint="#CBA181"
+            android:fontFamily="@font/brawler"
+            android:textSize="22sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

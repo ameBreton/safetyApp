@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Switch
+        android:id="@+id/switchEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable notification"/>
+
+    <RadioGroup
+        android:id="@+id/rgFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/rbDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily"/>
+
+        <RadioButton
+            android:id="@+id/rbWeekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Weekly"/>
+
+        <RadioButton
+            android:id="@+id/rbMonthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Monthly"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick time"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvPickedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No time selected"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

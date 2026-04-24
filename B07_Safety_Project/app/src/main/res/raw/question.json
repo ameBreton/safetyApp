@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "section": "Warm-Up",
+    "questionText": "Which best describes your situation?",
+    "type": 0,
+    "options": [
+      "Still in a relationship",
+      "Planning to leave",
+      "Post-separation"
+    ],
+    "tips": [
+      "Keep this plan updated, and remember you can always reach out if things escalate.",
+      "Start packing small items now so you’re ready when you decide to leave.",
+      "It’s normal to feel unsettled, refer back to this plan whenever you need a safety reminder."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 2,
+    "section": "Warm-Up",
+    "questionText": "What city do you live in?",
+    "type": 4,
+    "options": ["Choose a city","Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa", "Edmonton", "Winnipeg",
+      "Quebec City", "Halifax", "Victoria", "Regina", "Saskatoon", "St. John's", "Charlottetown",
+      "Whitehorse", "Yellowknife", "Iqaluit"],
+    "tips": [
+      "Save the local support numbers for {} in your phone’s speed-dial so you can call immediately if you need help."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 3,
+    "section": "Warm-Up",
+    "questionText": "Which room in your home feels the safest if you need to get away quickly?",
+    "type": 2,
+    "options": [],
+    "tips": [
+      "Keep your essentials (phone, keys, and a small flashlight) in {} so you can grab them instantly when you need to leave."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 4,
+    "section": "Warm-Up",
+    "questionText": "Who do you live with?",
+    "type": 0,
+    "options": [
+      "Family",
+      "Roommates",
+      "Alone",
+      "Partner"
+    ],
+    "tips": [
+      "Let your family know your safe room and cue‐word so they can support you in an emergency.",
+      "Let your roommates know your safe room and cue‐word so they can support you in an emergency.",
+      "Since you live alone, identify a trusted neighbor or friend and share your safe room location with them.",
+      "Because you live with your partner, keep your safety plan hidden (in {safe_room}), and consider storing a digital copy in a password-protected note they won’t see."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 5,
+    "section": "Warm-Up",
+    "questionText": "Do you have children?",
+    "type": 5,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Practice your safety plan with your children so that when they hear {}, they know exactly what to do.",
+      "Even without children, it helps to identify a second safe space in your home."
+    ],
+    "additional": "What is your code word with your children?",
+    "userAnswers": []
+  },
+  {
+    "id": 6,
+    "section": "Still in a relationship",
+    "questionText": "Which form(s) of abuse are you experiencing?",
+    "type": 1,
+    "options": [
+      "Physical",
+      "Emotional",
+      "Financial",
+      "Other"
+    ],
+    "tips": [
+      "If you face {abuse_type} abuse, remember you don’t have to face it alone. Reach out to your emergency contact right away."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 7,
+    "section": "Still in a relationship",
+    "questionText": "Are you recording the incidents (dates, times, details)?",
+    "type": 0,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Log each incident (date, time, and a brief note) so you have clear records if needed later.",
+      "Even brief notes on your phone can be helpful. Start logging today."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 8,
+    "section": "Still in a relationship",
+    "questionText": "Name one person you can call immediately in an emergency.",
+    "type": 2,
+    "options": [],
+    "tips": [
+      "Save {} in your phone under a code-word so you can quietly call them when you need help."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 9,
+    "section": "Planning to leave",
+    "questionText": "When do you plan to leave?",
+    "type": 3,
+    "options": [],
+    "tips": [
+      "Set a real target {} and pack one essential item each day until you’re ready."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 10,
+    "section": "Planning to leave",
+    "questionText": "Do you have a go-bag packed with essentials?",
+    "type": 0,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Great! Keep your go-bag in a hidden spot so you can grab it quickly.",
+      "Pack a simple go-bag today with essentials like your ID, some cash, and a charger."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 11,
+    "section": "Planning to leave",
+    "questionText": "Where do you keep emergency cash or cards?",
+    "type": 2,
+    "options": [],
+    "tips": [
+      "Stash some cash and a spare card in {}, a spot your partner won’t suspect."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 12,
+    "section": "Planning to leave",
+    "questionText": "Have you identified a safe place to stay?",
+    "type": 5,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Make sure {} knows you may arrive unexpectedly and how to contact you.",
+      "Reach out to Victim Services Toronto or a trusted friend now to secure a shelter option before you leave."
+    ],
+    "additional": "Please enter the name of your shelter contact person.",
+    "userAnswers": []
+  },
+  {
+    "id": 13,
+    "section": "Post-separation",
+    "questionText": "Has the abuser continued any contact?",
+    "type": 0,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Since you’ve heard from them, stay vigilant and keep your protection order handy if you have one.",
+      "Even without contact, keep your doors locked and your phone on in case you need to call 911."
+    ],
+    "userAnswers": []
+  },
+  {
+    "id": 14,
+    "section": "Post-separation",
+    "questionText": "Do you have a protection order? If yes, which type?",
+    "type": 5,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Carry your {} at all times and share copies with anyone who needs to know.",
+      "Consider applying for a protection order; it can help deter unwanted contact."
+    ],
+    "additional": "The type of the protection order",
+    "userAnswers": []
+  },
+  {
+    "id": 15,
+    "section": "Post-separation",
+    "questionText": "Are you using any safety tools (cameras, door alarms)?",
+    "type": 5,
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "tips": [
+      "Make sure your {} is in working order and placed where you’ll notice it.",
+      "Consider installing a simple door alarm or camera to alert you to unexpected entry."
+    ],
+    "additional": "What is the type of your equipment",
+    "userAnswers": []
+  },
+  {
+    "id": 16,
+    "section": "Follow",
+    "questionText": "Which type of support would help most right now?",
+    "type": 0,
+    "options": [
+      "Counselling",
+      "Legal aid",
+      "Financial guidance",
+      "Co-parenting resources"
+    ],
+    "tips": [
+      "Reach out to {} - they can offer the specialized help you need right now."
+    ],
+    "userAnswers": []
+  }
+]

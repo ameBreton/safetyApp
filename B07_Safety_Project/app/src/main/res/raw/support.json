@@ -1,0 +1,79 @@
+[
+  {
+    "city": "Toronto",
+    "supportNames": [
+      "Assaulted Women’s Helpline",
+      "Shelter Safe",
+      "Victim Services Toronto",
+      "Toronto Police Service"
+    ],
+    "connection": [
+      "1-866-863-0511",
+      "https://sheltersafe.ca/ontario/",
+      "1-416-808-7066",
+      "416-808-2222 (non-emergency) \n9-1-1 (emergency)"
+    ]
+  },
+  {
+    "city": "Vancouver",
+    "supportNames": [
+      "VictimLinkBC",
+      "Crime Victim Assistance Program",
+      "BC Housing Assistance"
+    ],
+    "connection": [
+      "Phone: 1-800-563-0808 \nEmail: 211-VictimLinkBC@uwbc.ca",
+      "Lower Mainland: 604 660-3888\nToll-free, phone: 1-866 660-3888",
+      "https://www.bchousing.org/housing-assistance/women-leaving-violence"
+    ]
+  },
+  {
+    "city": "Ottawa",
+    "supportNames": [
+      "Ottawa Police",
+      "Correctional Service of Canada",
+      "Ottawa Victim Services",
+      "Assaulted Women's Helpline",
+      "Shelter Safe"
+    ],
+    "connection": [
+      "VictimCrisisUnitIntake@ottawapolice.ca",
+      "1-866-806-2275",
+      "613-238-2762",
+      "1-866-863-0511",
+      "https://sheltersafe.ca/ontario/"
+    ]
+  },
+  {
+    "city": "Montreal",
+    "supportNames": [
+      "SOS violence conjugale",
+      "Info-aide violence sexuelle",
+      "Financial Assistance (provided for by the government)",
+      "Crime Victims Assistance Centres (CVAC)",
+      "Services Intégrés en Abus et Maltraitance (SIAM)"
+    ],
+    "connection": [
+      "1-800-363-9010",
+      "1-888-933-9007",
+      "https://www.quebec.ca/en/justice-et-etat-civil/systeme-judiciaire/processus-judiciaire/processus-judiciaire-au-criminel/accompagnement-victimes-crime/aide-financiere-personnes-victimes/quickly-leave-dangerous-environment",
+      "1-866-532-2822",
+      "https://www.ciusss-capitalenationale.gouv.qc.ca/services/jeunesse/protection-jeunesse/siam"
+    ]
+  },
+  {
+    "city": "Winnipeg",
+    "supportNames": [
+      "Victim Services Winnipeg",
+      "Provincial Crisis Line (Family Violence Shelter)",
+      "Manitoba Justice Victim Services (legal support)",
+      "Sexual Assault Crisis Line"
+    ],
+    "connection": [
+      "204-986-6350",
+      "1-877-977-0007",
+      "Victim Services: 1-866-484-2846\nDomestic Violence Victim Services: 1-866-484-2846",
+      "1-888-292-7565"
+    ]
+  }
+]
